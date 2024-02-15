@@ -7,3 +7,52 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* header */
+header {
+  width: 100%;
+  padding-block: 1rem;
+  padding-inline: 2.25rem;
+  background-color: white;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: #7752fe;
+  background-color: #190482;
+  border-radius: 7px 24px 7px;
+  border: 1px solid transparent;
+  font-size: 2.25em;
+  font-weight: 700;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+header nav.nav-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+header nav.nav-list ul li {
+  list-style-type: none;
+}
+
+header nav.nav-list ul li a {
+  color: #7752fe;
+  font-size: 1.35em;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+header nav.nav-list ul li:hover a {
+  color: #190482;
+}
+
+/* main */
