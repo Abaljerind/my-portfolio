@@ -20,7 +20,7 @@ header {
 }
 
 header .logo {
-  color: #7752fe;
+  color: white;
   background-color: #190482;
   border-radius: 7px 24px 7px;
   border: 1px solid transparent;
@@ -41,7 +41,7 @@ header nav.nav-list ul li {
 }
 
 header nav.nav-list ul li a {
-  color: #7752fe;
+  color: #190482;
   font-size: 1.35em;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
@@ -51,7 +51,7 @@ header nav.nav-list ul li a {
 }
 
 header nav.nav-list ul li:hover a {
-  color: #190482;
+  color: #7752fe;
 }
 
 /* main */
@@ -84,7 +84,7 @@ main .content .btn-group {
 
 main .content .btn-group button.btn-contact {
   width: 185px;
-  border: 3px solid #7752fe;
+  border: 3px solid #190482;
   background-color: white;
   font-size: 1.12em;
   font-weight: 700;
@@ -95,7 +95,7 @@ main .content .btn-group button.btn-contact {
 }
 
 main .content .btn-group button.btn-contact:hover {
-  background-color: #7752fe;
+  background-color: #190482;
 }
 
 main .content .btn-group button.btn-contact:hover,
@@ -105,14 +105,14 @@ main .content .btn-group button.btn-contact:hover a {
 
 main .content .btn-group button.btn-contact a {
   text-decoration: none;
-  color: #7752fe;
+  color: #190482;
   transition: all 0.25s ease-in;
 }
 
 main .content .btn-group button.btn-project {
   width: 285px;
-  border: 3px solid #7752fe;
-  background-color: #7752fe;
+  border: 3px solid #190482;
+  background-color: #190482;
   font-size: 1.12em;
   font-weight: 700;
   padding: 1rem 1.85rem;
@@ -133,7 +133,7 @@ main .content .btn-group button.btn-project:hover {
 
 main .content .btn-group button.btn-project:hover,
 main .content .btn-group button.btn-project:hover a {
-  color: #7752fe;
+  color: #190482;
 }
 
 /* aside */
