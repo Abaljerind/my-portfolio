@@ -11,8 +11,7 @@ body {
 /* header */
 header {
   width: 100%;
-  padding-block: 1rem;
-  padding-inline: 2.25rem;
+  padding: 1rem 2.25rem;
   background-color: white;
   margin-inline: auto;
   display: flex;
@@ -56,3 +55,95 @@ header nav.nav-list ul li:hover a {
 }
 
 /* main */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.25rem;
+}
+
+main .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .content h1.greeting pre {
+  font-size: 1.75em;
+  margin-bottom: -40px;
+}
+
+main .content p {
+  font-size: 1.1em;
+  padding-right: 2rem;
+}
+
+main .content .btn-group {
+  flex-wrap: wrap;
+}
+
+main .content .btn-group button.btn-contact {
+  width: 185px;
+  border: 3px solid #7752fe;
+  background-color: white;
+  font-size: 1.12em;
+  font-weight: 700;
+  padding: 1rem 1.85rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+main .content .btn-group button.btn-contact:hover {
+  background-color: #7752fe;
+}
+
+main .content .btn-group button.btn-contact:hover,
+main .content .btn-group button.btn-contact:hover a {
+  color: white;
+}
+
+main .content .btn-group button.btn-contact a {
+  text-decoration: none;
+  color: #7752fe;
+  transition: all 0.25s ease-in;
+}
+
+main .content .btn-group button.btn-project {
+  width: 285px;
+  border: 3px solid #7752fe;
+  background-color: #7752fe;
+  font-size: 1.12em;
+  font-weight: 700;
+  padding: 1rem 1.85rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 2rem 0 2rem 1rem;
+}
+
+main .content .btn-group button.btn-project a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.25s ease-in;
+}
+
+main .content .btn-group button.btn-project:hover {
+  background-color: white;
+}
+
+main .content .btn-group button.btn-project:hover,
+main .content .btn-group button.btn-project:hover a {
+  color: #7752fe;
+}
+
+/* aside */
+main aside {
+  position: relative;
+}
+main aside svg.my-background {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  z-index: -999;
+  width: 100%;
+}
