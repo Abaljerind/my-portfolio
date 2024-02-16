@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
 /* header */
@@ -76,6 +77,7 @@ main .content h1.greeting pre {
 main .content p {
   font-size: 1.1em;
   padding-right: 2rem;
+  color: gray;
 }
 
 main .content .btn-group {
@@ -142,7 +144,7 @@ main aside {
 }
 main aside svg.my-background {
   position: absolute;
-  top: 30px;
+  top: 40px;
   right: 10px;
   z-index: -999;
   width: 100%;
