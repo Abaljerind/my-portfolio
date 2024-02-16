@@ -160,6 +160,7 @@ main section.about {
     url(/img/gplaypattern.png);
   width: 100%;
   padding: 2rem 0;
+  margin-top: -1.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,8 +179,8 @@ main section.about header.header-about::after {
   background-color: #190482;
   border-radius: 5px;
   position: absolute;
-  top: calc(91.5% + 1rem);
-  left: 48%;
+  top: calc(88.5% + 1rem);
+  left: 48.5%;
   margin-top: 1rem;
 }
 
