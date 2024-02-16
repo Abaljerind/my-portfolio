@@ -178,7 +178,7 @@ main section.about header.header-about::after {
   background-color: #190482;
   border-radius: 5px;
   position: absolute;
-  top: calc(75% + 0.7rem);
+  top: calc(91.5% + 1rem);
   left: 48%;
   margin-top: 1rem;
 }
@@ -196,4 +196,64 @@ main section.about header.header-about p {
   text-align: center;
   margin: 1rem auto 0 auto;
   padding-inline: 15rem;
+}
+
+main section.about .content-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+main section.about .content-about article.introduction {
+  width: 35%;
+  color: #555;
+}
+
+main section.about .content-about article.introduction h3 {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 1.25rem;
+}
+
+main section.about .content-about article.introduction p {
+  font-size: 1em;
+  line-height: 2rem;
+}
+
+main section.about .content-about article.introduction p:nth-of-type(2) {
+  margin: 0.5rem 0;
+}
+
+main section.about .content-about article.introduction p span.bold {
+  font-weight: 700;
+}
+
+main section.about .content-about article.introduction p span.bold a {
+  color: #7752fe;
+}
+
+main section.about .content-about aside.skills-set {
+  width: 35%;
+  color: #555;
+}
+
+main section.about .content-about aside.skills-set h3.skill-title {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 1.25rem;
+}
+
+main section.about .content-about aside.skills-set .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main section.about .content-about aside.skills-set .skills p.skill {
+  font-size: 1em;
+  font-weight: 600;
+  background-color: rgba(153, 153, 153, 0.2);
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
 }
