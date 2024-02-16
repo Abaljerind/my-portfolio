@@ -56,35 +56,35 @@ header nav.nav-list ul li:hover a {
 }
 
 /* main */
-main {
+main .main-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 2.25rem;
 }
 
-main .content {
+main .main-container .content {
   width: 60%;
   display: flex;
   flex-direction: column;
 }
 
-main .content h1.greeting pre {
+main .main-container .content h1.greeting pre {
   font-size: 1.75em;
   margin-bottom: -40px;
 }
 
-main .content p {
+main .main-container .content p {
   font-size: 1.1em;
   padding-right: 2rem;
   color: #333;
 }
 
-main .content .btn-group {
+main .main-container .content .btn-group {
   flex-wrap: wrap;
 }
 
-main .content .btn-group button.btn-contact {
+main .main-container .content .btn-group button.btn-contact {
   width: 185px;
   border: 3px solid #190482;
   background-color: white;
@@ -96,22 +96,22 @@ main .content .btn-group button.btn-contact {
   margin: 2rem 0;
 }
 
-main .content .btn-group button.btn-contact:hover {
+main .main-container .content .btn-group button.btn-contact:hover {
   background-color: #190482;
 }
 
-main .content .btn-group button.btn-contact:hover,
-main .content .btn-group button.btn-contact:hover a {
+main .main-container .content .btn-group button.btn-contact:hover,
+main .main-container .content .btn-group button.btn-contact:hover a {
   color: white;
 }
 
-main .content .btn-group button.btn-contact a {
+main .main-container .content .btn-group button.btn-contact a {
   text-decoration: none;
   color: #190482;
   transition: all 0.25s ease-in;
 }
 
-main .content .btn-group button.btn-project {
+main .main-container .content .btn-group button.btn-project {
   width: 285px;
   border: 3px solid #190482;
   background-color: #190482;
@@ -123,26 +123,26 @@ main .content .btn-group button.btn-project {
   margin: 2rem 0 2rem 1rem;
 }
 
-main .content .btn-group button.btn-project a {
+main .main-container .content .btn-group button.btn-project a {
   text-decoration: none;
   color: white;
   transition: all 0.25s ease-in;
 }
 
-main .content .btn-group button.btn-project:hover {
+main .main-container .content .btn-group button.btn-project:hover {
   background-color: white;
 }
 
-main .content .btn-group button.btn-project:hover,
-main .content .btn-group button.btn-project:hover a {
+main .main-container .content .btn-group button.btn-project:hover,
+main .main-container .content .btn-group button.btn-project:hover a {
   color: #190482;
 }
 
 /* aside */
-main aside {
+main .main-container aside {
   position: relative;
 }
-main aside svg.my-background {
+main .main-container aside svg.my-background {
   position: absolute;
   top: 40px;
   right: 10px;
