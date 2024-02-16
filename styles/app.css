@@ -248,7 +248,7 @@ main section.about .content-about aside.skills-set h3.skill-title {
 main section.about .content-about aside.skills-set .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px 15px;
 }
 
 main section.about .content-about aside.skills-set .skills p.skill {
