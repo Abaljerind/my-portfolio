@@ -154,8 +154,8 @@ main .main-container aside svg.my-background {
 main section.about {
   background: linear-gradient(
       to right,
-      rgba(245, 245, 245, 0.614),
-      rgba(245, 245, 245, 0.8)
+      rgba(245, 245, 245, 0.4),
+      rgba(245, 245, 245, 0.75)
     ),
     url(/img/gplaypattern.png);
   width: 100%;
