@@ -258,3 +258,47 @@ main section.about .content-about aside.skills-set .skills p.skill {
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
 }
+
+/* projects */
+main section.project {
+  width: 100%;
+  padding: 2rem 0;
+  margin-top: -1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main section.project header.header-project {
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+main section.project header.header-project::after {
+  content: "";
+  height: 5px;
+  width: 2rem;
+  background-color: #190482;
+  border-radius: 5px;
+  position: absolute;
+  top: calc(40% + 1rem);
+  left: 48.5%;
+  margin-top: 1rem;
+}
+
+main section.project header.header-project h2 {
+  font-size: 2em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 2rem auto;
+}
+
+main section.project header.header-project p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: center;
+  margin: 1rem auto 0 auto;
+  padding-inline: 24rem;
+}
