@@ -305,6 +305,12 @@ main section.project header.header-project p {
   color: #555;
 }
 
+main section.project .project-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
 main section.project .project-content .project-row {
   width: 95%;
   padding: 4rem 4rem 0 6rem;
@@ -320,7 +326,6 @@ main section.project .project-content .project-row:nth-child(2) {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  row-gap: 10rem;
 }
 
 main section.project .project-content .project-row .project-img img {
@@ -340,7 +345,6 @@ main section.project .project-content .project-row .project-description {
   row-gap: 1rem;
   color: #555;
   padding: 0 4rem;
-  margin-top: -0.8rem;
 }
 
 main
