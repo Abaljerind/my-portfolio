@@ -22,7 +22,7 @@ header {
 
 header .logo {
   color: white;
-  background-color: #190482;
+  background-color: #7752fe;
   border-radius: 7px 24px 7px;
   border: 1px solid transparent;
   font-size: 2.25em;
@@ -42,7 +42,7 @@ header nav.nav-list ul li {
 }
 
 header nav.nav-list ul li a {
-  color: #190482;
+  color: #7752fe;
   font-size: 1.35em;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
@@ -52,7 +52,7 @@ header nav.nav-list ul li a {
 }
 
 header nav.nav-list ul li:hover a {
-  color: #7752fe;
+  color: #190482;
 }
 
 /* main */
@@ -86,7 +86,7 @@ main .main-container .content .btn-group {
 
 main .main-container .content .btn-group button.btn-contact {
   width: 185px;
-  border: 3px solid #190482;
+  border: 3px solid #7752fe;
   background-color: white;
   font-size: 1.12em;
   font-weight: 700;
@@ -97,7 +97,7 @@ main .main-container .content .btn-group button.btn-contact {
 }
 
 main .main-container .content .btn-group button.btn-contact:hover {
-  background-color: #190482;
+  background-color: #7752fe;
 }
 
 main .main-container .content .btn-group button.btn-contact:hover,
@@ -107,14 +107,14 @@ main .main-container .content .btn-group button.btn-contact:hover a {
 
 main .main-container .content .btn-group button.btn-contact a {
   text-decoration: none;
-  color: #190482;
+  color: #7752fe;
   transition: all 0.25s ease-in;
 }
 
 main .main-container .content .btn-group button.btn-project {
   width: 285px;
-  border: 3px solid #190482;
-  background-color: #190482;
+  border: 3px solid #7752fe;
+  background-color: #7752fe;
   font-size: 1.12em;
   font-weight: 700;
   padding: 1rem 1.85rem;
@@ -135,7 +135,7 @@ main .main-container .content .btn-group button.btn-project:hover {
 
 main .main-container .content .btn-group button.btn-project:hover,
 main .main-container .content .btn-group button.btn-project:hover a {
-  color: #190482;
+  color: #7752fe;
 }
 
 /* aside */
@@ -176,7 +176,7 @@ main section.about header.header-about::after {
   content: "";
   height: 5px;
   width: 2rem;
-  background-color: #190482;
+  background-color: #7752fe;
   border-radius: 5px;
   position: absolute;
   top: 41.5rem;
@@ -281,7 +281,7 @@ main section.project header.header-project::after {
   content: "";
   height: 5px;
   width: 2rem;
-  background-color: #190482;
+  background-color: #7752fe;
   border-radius: 5px;
   position: absolute;
   top: 8rem;
