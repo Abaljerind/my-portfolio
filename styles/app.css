@@ -160,7 +160,7 @@ main section.about {
   justify-content: space-between;
   align-items: center;
   padding: 6rem 5rem;
-  background-color: #fafafa;
+  background-color: #f6f6f6;
 }
 
 main section.about header.header-about {
@@ -198,6 +198,7 @@ main section.about header.header-about p {
   padding: 0 14rem;
 }
 
+/* content-about */
 main section.about .content-about {
   display: flex;
   flex-direction: row;
@@ -207,6 +208,7 @@ main section.about .content-about {
   margin-top: 6rem;
 }
 
+/* introduction */
 main section.about .content-about article.introduction {
   width: 50%;
   display: flex;
@@ -234,6 +236,7 @@ main section.about .content-about article.introduction p span.bold a {
   color: #7752fe;
 }
 
+/* skills-set */
 main section.about .content-about aside.skills-set {
   width: 35%;
   display: flex;
@@ -261,4 +264,8 @@ main section.about .content-about aside.skills-set .skills p.skill {
   background-color: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   padding: 0.8rem 1.6rem;
+}
+
+/* lanjut projects */
+main section.project {
 }
