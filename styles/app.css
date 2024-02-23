@@ -16,7 +16,7 @@ header {
   justify-content: space-around;
   align-items: center;
   column-gap: 40rem;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0;
 }
 
 header .logo {
@@ -28,7 +28,7 @@ header .logo {
 }
 
 header .logo p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
@@ -76,7 +76,7 @@ main .main-container {
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
-  padding: 0 2rem;
+  padding: 1rem 5rem 0 5rem;
 }
 
 main .main-container .content {
@@ -87,7 +87,7 @@ main .main-container .content {
 }
 
 main .main-container .content h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 700;
   margin-bottom: 1rem;
   letter-spacing: 1px;
