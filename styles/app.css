@@ -201,9 +201,9 @@ main section.about header.header-about p {
 main section.about .content-about {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  column-gap: 12rem;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 6rem;
   margin-top: 6rem;
 }
 
@@ -233,7 +233,32 @@ span.bold {
 main section.about .content-about article.introduction p span.bold a {
   color: #7752fe;
 }
-/* main section.about .content-about aside.skills-set {
+
+main section.about .content-about aside.skills-set {
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
-} */
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+main section.about .content-about aside.skills-set h3.skill-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1.7rem;
+}
+
+main section.about .content-about aside.skills-set .skills {
+  display: flex;
+  flex-wrap: wrap;
+  color: #666;
+  font-weight: 600;
+  font-size: 1.05em;
+  gap: 1.2rem;
+}
+
+main section.about .content-about aside.skills-set .skills p.skill {
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  padding: 0.8rem 1.6rem;
+}
