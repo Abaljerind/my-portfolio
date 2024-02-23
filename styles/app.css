@@ -154,15 +154,44 @@ main .main-container aside svg.my-background {
 
 /* about */
 /* header */
-/* main section.about {
+main section.about {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 4rem;
+  padding: 6rem 5rem;
+  background-color: #fafafa;
 }
 
 main section.about header.header-about {
   display: flex;
   flex-direction: column;
-} */
+}
+
+main section.about header.header-about h2 {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 2.75rem;
+}
+
+main section.about header.header-about h2::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 5px;
+  border-radius: 10px;
+  background: #7752fe;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 125%;
+}
+
+main section.about header.header-about p {
+  text-align: center;
+  color: #555;
+  padding: 0 16rem;
+}
