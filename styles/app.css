@@ -191,7 +191,49 @@ main section.about header.header-about h2::after {
 }
 
 main section.about header.header-about p {
+  font-size: 1.15em;
   text-align: center;
+  line-height: 2rem;
   color: #555;
-  padding: 0 16rem;
+  padding: 0 14rem;
 }
+
+main section.about .content-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 12rem;
+  margin-top: 6rem;
+}
+
+main section.about .content-about article.introduction {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 8rem;
+}
+
+main section.about .content-about article.introduction h3 {
+  font-size: 1.5em;
+  margin-bottom: 1.7rem;
+}
+
+main section.about .content-about article.introduction p {
+  color: #555;
+  font-size: 1.05em;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+main section.about .content-about article.introduction p span.bold a {
+  color: #7752fe;
+}
+/* main section.about .content-about aside.skills-set {
+  display: flex;
+  flex-wrap: wrap;
+} */
