@@ -97,7 +97,38 @@ main .main-container .content p {
   color: #555;
   font-size: 1em;
   padding: 0 12rem 0 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
-/* lanjut button */
+main .main-container .content .btn-group {
+  display: flex;
+  column-gap: 1rem;
+}
+
+main .main-container .content .btn-group a {
+  text-decoration: none;
+  border: 2px solid #7752fe;
+  padding: 0.5rem 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+main .main-container .content .btn-group a.hire {
+  background-color: white;
+  color: #7752fe;
+}
+main .main-container .content .btn-group a.hire:hover {
+  background-color: #7752fe;
+  color: white;
+}
+
+main .main-container .content .btn-group a.projects {
+  background-color: #7752fe;
+  color: white;
+}
+
+main .main-container .content .btn-group a.projects:hover {
+  background-color: white;
+  color: #7752fe;
+}
