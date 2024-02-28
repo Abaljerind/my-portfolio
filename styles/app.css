@@ -529,3 +529,20 @@ footer .footer-container .footer-upper .social-media ul li a i {
 }
 
 /* footer lower */
+footer .footer-container .footer-lower {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 3rem;
+}
+
+footer .footer-container .footer-lower p {
+  font-size: 0.9em;
+}
+
+footer .footer-container .footer-lower p a {
+  color: white;
+  font-weight: 700;
+}
