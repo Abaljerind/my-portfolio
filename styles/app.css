@@ -458,3 +458,70 @@ main section.contact .contact-content form button {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 1.3rem 4rem;
 }
+
+/* footer */
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 5rem;
+}
+
+footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+footer .footer-container .footer-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* kasih margin bawah */
+}
+
+footer .footer-container .footer-upper .profile {
+  width: 45%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-container .footer-upper .profile h3,
+footer .footer-container .footer-upper .social-media h3 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+}
+
+footer .footer-container .footer-upper .profile p {
+  font-size: 0.85em;
+  letter-spacing: 1px;
+  padding-right: 4rem;
+}
+
+footer .footer-container .footer-upper .social-media {
+  color: white;
+}
+
+footer .footer-container .footer-upper .social-media ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 2rem;
+}
+
+footer .footer-container .footer-upper .social-media ul li {
+  list-style-type: none;
+}
+
+footer .footer-container .footer-upper .social-media ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-container .footer-upper .social-media ul li a i {
+  transform: scale(1.5);
+}
