@@ -164,16 +164,18 @@ main section.about {
 }
 
 /* header, project & contact */
-main section.about header.header-about,
-main section.project header.header-project,
-main section.contact header.contact-header {
+main section.about .header-about,
+main section.project .header-project,
+main section.contact .contact-header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
-main section.about header.header-about h2,
-main section.project header.header-project h2,
-main section.contact header.contact-header h2 {
+main section.about .header-about h2,
+main section.project .header-project h2,
+main section.contact .contact-header h2 {
   font-size: 2.3em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -182,9 +184,9 @@ main section.contact header.contact-header h2 {
   margin-bottom: 2.75rem;
 }
 
-main section.about header.header-about h2::after,
-main section.project header.header-project h2::after,
-main section.contact header.contact-header h2::after {
+main section.about .header-about h2::after,
+main section.project .header-project h2::after,
+main section.contact .contact-header h2::after {
   content: "";
   display: block;
   width: 2rem;
@@ -197,9 +199,9 @@ main section.contact header.contact-header h2::after {
   top: 125%;
 }
 
-main section.about header.header-about p,
-main section.project header.header-project p,
-main section.contact header.contact-header p {
+main section.about .header-about p,
+main section.project .header-project p,
+main section.contact .contact-header p {
   font-size: 1.15em;
   text-align: center;
   line-height: 2rem;
