@@ -31,10 +31,10 @@
       </div>
       <nav class="nav-list">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -62,8 +62,8 @@ Front-end Web Developer</pre
             resonate with users worldwide.
           </p>
           <div class="btn-group">
-            <a href="#" class="hire">Hire Me</a>
-            <a href="#" class="projects">See My Projects</a>
+            <a href="#contact" class="hire">Hire Me</a>
+            <a href="#projects" class="projects">See My Projects</a>
           </div>
         </div>
 
@@ -86,7 +86,7 @@ Front-end Web Developer</pre
 
       <!-- about me -->
 
-      <section class="about">
+      <section id="about" class="about">
         <header class="header-about">
           <h2>About Me</h2>
           <p>
@@ -144,7 +144,7 @@ Front-end Web Developer</pre
 
       <!-- projects -->
 
-      <section class="project">
+      <section id="projects" class="project">
         <header class="header-project">
           <h2>Projects</h2>
           <p>
@@ -263,7 +263,7 @@ Front-end Web Developer</pre
       <!-- end projects -->
 
       <!-- contact -->
-      <section class="contact">
+      <section id="contact" class="contact">
         <header class="contact-header">
           <h2>Contact</h2>
           <p>
@@ -299,7 +299,7 @@ Front-end Web Developer</pre
               <textarea
                 name="message"
                 id="message"
-                rows="15"
+                rows="12"
                 placeholder="Enter Your Message"
               ></textarea>
             </div>
@@ -368,4 +368,11 @@ Front-end Web Developer</pre
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
+
+  <!-- 
+    1. lanjut tambah script untuk .greeting nanti dikasih javascript agar ada efek ketik 
+    3. kasih efek scroll smooth saat menu diklik dan berpindah ke section yg dituju
+    4. buat hamburger menu
+    5. opsional, jika form udah di isi dan button nya di klik munculin pesan alert 'harap menunggu, fitur ini akan segera hadir' terus semua isi di input dan textarea menghilang.
+  -->
 </html>
