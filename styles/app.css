@@ -163,7 +163,7 @@ main section.about {
   background-color: #fafafa;
 }
 
-/* header & project */
+/* header, project & contact */
 main section.about header.header-about,
 main section.project header.header-project,
 main section.contact header.contact-header {
@@ -380,4 +380,81 @@ main section.contact {
   flex-direction: column;
   align-items: center;
   padding: 6rem 5rem;
+}
+
+/* contact-content */
+main section.contact .contact-content {
+  width: 65%;
+  background-color: white;
+  margin-top: 6rem;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgba(153, 153, 153, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main section.contact .contact-content form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 2.5rem;
+}
+
+main section.contact .contact-content form .form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main section.contact .contact-content form .form-field label {
+  color: #555;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+main section.contact .contact-content form .form-field input {
+  font-size: 1.15em;
+  background-color: rgba(153, 153, 153, 0.2);
+  color: #333;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  height: 4rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.8rem;
+  border-radius: 5px;
+}
+
+main section.contact .contact-content form .form-field textarea {
+  background-color: rgba(153, 153, 153, 0.2);
+  color: #333;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  font-size: 1.5em;
+  padding: 0.5rem 1rem;
+  margin-top: 0.8rem;
+  border-radius: 5px;
+}
+
+main section.contact .contact-content form .form-field input::placeholder,
+main section.contact .contact-content form .form-field textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+main section.contact .contact-content form button {
+  align-self: flex-end;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #7752fe;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 1.3rem 4rem;
 }
