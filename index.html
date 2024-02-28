@@ -328,17 +328,21 @@ Front-end Web Developer</pre
             <h3>Social</h3>
             <ul>
               <li>
-                <a href="https://github.com/Abaljerind"
+                <a href="https://github.com/Abaljerind" target="_blank"
                   ><i class="fa-brands fa-github"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/abal-jerind-baa90519a/"
+                <a
+                  href="https://www.linkedin.com/in/abal-jerind-baa90519a/"
+                  target="_blank"
                   ><i class="fa-brands fa-linkedin"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.frontendmentor.io/profile/Abaljerind"
+                <a
+                  href="https://www.frontendmentor.io/profile/Abaljerind"
+                  target="_blank"
                   ><i class="fa-solid fa-laptop-code"></i
                 ></a>
               </li>
@@ -347,11 +351,11 @@ Front-end Web Developer</pre
         </div>
         <div class="footer-lower">
           <p>
-            &copy; Copyright
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            . Made by <a href="https://github.com/Abaljerind">AbalJerind</a>
+            Copyright &copy;
+            <span id="year"></span>. Made by
+            <a target="_blank" href="https://github.com/Abaljerind"
+              >AbalJerind</a
+            >
           </p>
         </div>
       </div>
@@ -359,4 +363,9 @@ Front-end Web Developer</pre
 
     <!-- end footer -->
   </body>
+
+  <!-- script untuk menghitung tahun pada footer -->
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 </html>
