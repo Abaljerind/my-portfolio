@@ -351,7 +351,8 @@ main
   .project-content
   .project-row
   .project-description
-  button:hover {
+  button:hover,
+main section.contact .contact-content form button:hover {
   transform: perspective(1px) translateZ(0) translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
@@ -459,6 +460,7 @@ main section.contact .contact-content form button {
   border-radius: 5px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 1.3rem 4rem;
+  cursor: pointer;
 }
 
 /* footer */
