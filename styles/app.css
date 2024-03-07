@@ -17,6 +17,10 @@ header {
   align-items: center;
   column-gap: 40rem;
   padding: 0.5rem 0;
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
 }
 
 header .logo {
@@ -51,6 +55,10 @@ header nav.nav-list ul li a {
   color: #7752fe;
   padding: 0.5rem 1rem;
   transition: color 0.3s ease-in-out;
+}
+
+header nav.nav-list ul li:last-child {
+  display: none;
 }
 
 header nav.nav-list ul li:hover a {
@@ -552,3 +560,56 @@ footer .footer-container .footer-lower p a {
 }
 
 /* lanjut bagian media query */
+
+/* Small devices (landscape phones, 375px and up) */
+@media screen and (max-width: 376px) {
+  header {
+    column-gap: 16.5rem;
+    padding: 0.5rem;
+    background-color: #fafafa;
+    position: static;
+  }
+
+  header nav.nav-list ul {
+    display: inline;
+    position: relative;
+  }
+
+  header nav.nav-list ul li.hidden {
+    display: none;
+  }
+
+  header nav.nav-list ul li:nth-child(1) {
+    top: 4rem;
+  }
+
+  header nav.nav-list ul li:nth-child(2) {
+    top: 6rem;
+  }
+
+  header nav.nav-list ul li:nth-child(3) {
+    top: 8rem;
+  }
+
+  header nav.nav-list ul li:nth-child(4) {
+    top: 10rem;
+  }
+
+  header nav.nav-list ul li:nth-child(1),
+  header nav.nav-list ul li:nth-child(2),
+  header nav.nav-list ul li:nth-child(3),
+  header nav.nav-list ul li:nth-child(4) {
+    position: absolute;
+    right: -3.2rem;
+    transition: all 1s ease-in-out;
+  }
+
+  header nav.nav-list ul li:last-child {
+    display: flex;
+    transform: scale(1.5);
+  }
+}
+
+/* Medium devices (tablets, 810px and up) */
+@media screen and (min-width: 810px) {
+}
