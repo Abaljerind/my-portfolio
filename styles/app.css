@@ -563,11 +563,16 @@ footer .footer-container .footer-lower p a {
 
 /* Small devices (landscape phones, 375px and up) */
 @media screen and (max-width: 376px) {
+  /* header */
   header {
     column-gap: 16.5rem;
     padding: 0.5rem;
     background-color: #fafafa;
     position: static;
+  }
+
+  header .logo {
+    transform: scale(0.85);
   }
 
   header nav.nav-list ul {
@@ -607,6 +612,54 @@ footer .footer-container .footer-lower p a {
   header nav.nav-list ul li:last-child {
     display: flex;
     transform: scale(1.5);
+  }
+
+  /* main */
+  main {
+    justify-content: flex-start;
+  }
+
+  main .main-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0rem;
+    padding: 1rem 1rem 8rem 1rem;
+  }
+
+  main .main-container .content {
+    justify-content: flex-start;
+    align-items: center;
+    order: 2;
+  }
+
+  main .main-container .content h1 {
+    font-size: 2em;
+  }
+
+  main .main-container .content p {
+    font-size: 0.8em;
+    padding: 0 0rem 0 0;
+  }
+
+  /* .btn-group */
+  main .main-container .content .btn-group a {
+    padding: 0.25rem 0.9rem;
+  }
+
+  /* .aside */
+  main .main-container aside {
+    order: 1;
+  }
+
+  main .main-container aside img {
+    top: 0rem;
+    right: 2.7rem;
+    transform: scale(0.825);
+  }
+
+  main .main-container aside svg.my-background {
+    top: 3.3rem;
+    right: 6rem;
   }
 }
 
