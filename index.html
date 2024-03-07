@@ -26,15 +26,18 @@
     <!-- header -->
 
     <header>
-      <div class="logo">
+      <div id="logo" class="logo">
         <p>AJ</p>
       </div>
       <nav class="nav-list">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="navlist">
+          <li class="hidden"><a href="#home">Home</a></li>
+          <li class="hidden"><a href="#about">About</a></li>
+          <li class="hidden"><a href="#projects">Projects</a></li>
+          <li class="hidden"><a href="#contact">Contact</a></li>
+          <li class="dropdown" onclick="dropdown()">
+            <a href="javascript:void(0);"><i class="fa-solid fa-bars"></i></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -43,7 +46,7 @@
 
     <!-- main -->
 
-    <main>
+    <main id="home">
       <div class="main-container">
         <!-- content -->
         <div class="content">
@@ -369,6 +372,8 @@ Front-end Web Developer</pre
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
 
+  <!-- script -->
+  <script src="app.js"></script>
   <!-- 
     1. lanjut tambah script untuk .greeting nanti dikasih javascript agar ada efek ketik 
     3. kasih efek scroll smooth saat menu diklik dan berpindah ke section yg dituju
