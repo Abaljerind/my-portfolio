@@ -607,6 +607,7 @@ footer .footer-container .footer-lower p a {
     position: absolute;
     right: -3.2rem;
     transition: all 1s ease-in-out;
+    z-index: 99999;
   }
 
   header nav.nav-list ul li:last-child {
