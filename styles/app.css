@@ -666,7 +666,8 @@ footer .footer-container .footer-lower p a {
   /* about */
   /* header */
   main section.about,
-  main section.project {
+  main section.project,
+  main section.contact {
     padding-inline: 1rem;
   }
   /* header, project & contact */
@@ -797,6 +798,42 @@ footer .footer-container .footer-lower p a {
   }
 
   /* contact */
+  /* contact-content */
+  main section.contact .contact-content {
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+
+  main section.contact .contact-content form {
+    row-gap: 1.5rem;
+  }
+
+  main section.contact .contact-content form .form-field label {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+  }
+
+  main section.contact .contact-content form .form-field input {
+    font-size: 1em;
+    height: 3.25rem;
+    padding: 0.25rem 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  main section.contact .contact-content form .form-field textarea {
+    font-size: 1.35em;
+    padding: 0.25rem 0.6rem;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+  }
+
+  main section.contact .contact-content form button {
+    font-size: 0.9em;
+    padding: 0.8rem 1.5rem;
+  }
+
+  /* footer */
 }
 /* Medium devices (tablets, 810px and up) */
 @media screen and (min-width: 810px) {
