@@ -638,13 +638,13 @@ footer .footer-container .footer-lower p a {
   }
 
   main .main-container .content p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 0 0rem 0 0;
   }
 
   /* .btn-group */
   main .main-container .content .btn-group a {
-    padding: 0.25rem 0.9rem;
+    padding: 0.35rem 0.8rem;
   }
 
   /* .aside */
@@ -693,7 +693,7 @@ footer .footer-container .footer-lower p a {
   main section.about .header-about p,
   main section.project .header-project p,
   main section.contact .contact-header p {
-    font-size: 0.85em;
+    font-size: 0.9em;
     text-align: center;
     line-height: 1.2rem;
     padding: 0;
@@ -715,11 +715,11 @@ footer .footer-container .footer-lower p a {
   }
 
   main section.about .content-about article.introduction h3 {
-    font-size: 1.25em;
+    font-size: 1.45em;
   }
 
   main section.about .content-about article.introduction p {
-    font-size: 0.85em;
+    font-size: 0.9em;
     line-height: 1.2rem;
     padding-bottom: 0.5rem;
     text-align: justify;
@@ -734,12 +734,12 @@ footer .footer-container .footer-lower p a {
   }
 
   main section.about .content-about aside.skills-set h3.skill-title {
-    font-size: 1.25em;
+    font-size: 1.45em;
     margin-top: 2rem;
   }
 
   main section.about .content-about aside.skills-set .skills {
-    font-size: 0.85em;
+    font-size: 0.9em;
     gap: 0.75rem;
     justify-content: center;
   }
@@ -748,6 +748,8 @@ footer .footer-container .footer-lower p a {
     padding: 0.6rem 1.2rem;
   }
 }
+
+/* projects */
 
 /* Medium devices (tablets, 810px and up) */
 @media screen and (min-width: 810px) {
