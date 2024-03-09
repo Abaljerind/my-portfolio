@@ -946,8 +946,7 @@ footer .footer-container .footer-lower p a {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1rem;
-    /* gap perlu diatur lagi */
-    padding: 1rem 1rem 6rem 1rem;
+    padding: 6rem 1rem;
   }
 
   main .main-container .content {
