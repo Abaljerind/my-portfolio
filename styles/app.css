@@ -667,7 +667,8 @@ footer .footer-container .footer-lower p a {
   /* header */
   main section.about,
   main section.project,
-  main section.contact {
+  main section.contact,
+  footer {
     padding-inline: 1rem;
   }
   /* header, project & contact */
@@ -837,6 +838,44 @@ footer .footer-container .footer-lower p a {
   }
 
   /* footer */
+  footer .footer-container {
+    width: 100%;
+  }
+
+  /* footer-upper */
+  footer .footer-container .footer-upper {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  footer .footer-container .footer-upper .profile {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  footer .footer-container .footer-upper .profile h3,
+  footer .footer-container .footer-upper .social-media h3 {
+    text-align: center;
+    font-size: 1.45em;
+  }
+
+  footer .footer-container .footer-upper .profile p {
+    text-align: center;
+    font-size: 0.9em;
+    padding-right: 0rem;
+  }
+
+  footer .footer-container .footer-upper .social-media {
+    padding-right: 0rem;
+  }
+
+  footer .footer-container .footer-upper .social-media ul {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    column-gap: 0;
+  }
 }
 /* Medium devices (tablets, 810px and up) */
 @media screen and (min-width: 810px) {
