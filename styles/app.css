@@ -885,9 +885,10 @@ footer .footer-container .footer-lower p a {
   /* header */
   header {
     column-gap: 40rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     background-color: #fafafa;
-    position: static;
+    position: fixed;
+    top: 0;
   }
 
   header .logo {
@@ -1123,4 +1124,6 @@ footer .footer-container .footer-lower p a {
     margin-top: -1rem;
     margin-left: -0.8rem;
   }
+
+  /* contact */
 }
