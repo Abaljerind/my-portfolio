@@ -563,8 +563,6 @@ footer .footer-container .footer-lower p a {
   font-weight: 700;
 }
 
-/* lanjut bagian media query */
-
 /* Small devices (landscape phones, 375px and up) */
 @media screen and (max-width: 376px) {
   /* header */
@@ -987,5 +985,93 @@ footer .footer-container .footer-lower p a {
   main .main-container aside svg.my-background {
     top: 4.5rem;
     right: 1.5rem;
+  }
+
+  /* about */
+  /* header */
+  main section.about,
+  main section.project,
+  main section.contact,
+  footer {
+    padding-inline: 1rem;
+  }
+  /* header, project & contact */
+  main section.about .header-about,
+  main section.project .header-project,
+  main section.contact .contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  main section.about .header-about h2,
+  main section.project .header-project h2,
+  main section.contact .contact-header h2 {
+    font-size: 1.85em;
+  }
+
+  main section.about .header-about h2::after,
+  main section.project .header-project h2::after,
+  main section.contact .contact-header h2::after {
+    top: 140%;
+  }
+
+  main section.about .header-about p,
+  main section.project .header-project p,
+  main section.contact .contact-header p {
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0;
+  }
+
+  /* content-about */
+  main section.about .content-about {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-top: 6rem;
+  }
+
+  /* introduction */
+  main section.about .content-about article.introduction {
+    flex-grow: 2;
+    padding-inline: 1rem;
+    justify-content: center;
+  }
+
+  main section.about .content-about article.introduction h3 {
+    font-size: 1.45em;
+  }
+
+  main section.about .content-about article.introduction p {
+    font-size: 0.9em;
+    line-height: 1.2rem;
+    padding-bottom: 0.5rem;
+    text-align: start;
+  }
+
+  /* skills-set */
+  main section.about .content-about aside.skills-set {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main section.about .content-about aside.skills-set h3.skill-title {
+    font-size: 1.45em;
+    margin-top: 0rem;
+  }
+
+  main section.about .content-about aside.skills-set .skills {
+    font-size: 0.9em;
+    gap: 0.75rem;
+    justify-content: flex-start;
+  }
+
+  main section.about .content-about aside.skills-set .skills p.skill {
+    padding: 0.6rem 1.2rem;
   }
 }
