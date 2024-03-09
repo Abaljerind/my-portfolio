@@ -567,8 +567,8 @@ footer .footer-container .footer-lower p a {
   font-weight: 700;
 }
 
-/* Small devices (landscape phones, 375px and up) */
-@media screen and (max-width: 376px) {
+/* Small devices (landscape phones, 376px) */
+@media only screen and (min-width: 360px) and (max-width: 415px) {
   /* header */
   header {
     column-gap: 16.5rem;
@@ -655,7 +655,7 @@ footer .footer-container .footer-lower p a {
 
   /* .aside */
   main .main-container aside {
-    overflow-x: hidden;
+    overflow: hidden;
     order: 1;
   }
 
@@ -895,8 +895,8 @@ footer .footer-container .footer-lower p a {
     column-gap: 0;
   }
 }
-/* Medium devices (tablets, 810px and up) */
-@media only screen and (min-width: 377px) and (max-width: 811px) {
+/* Medium devices (tablets, from 750px until 1024px) */
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
   /* header */
   header {
     column-gap: 40rem;
@@ -987,7 +987,7 @@ footer .footer-container .footer-lower p a {
 
   /* .aside */
   main .main-container aside {
-    overflow-x: hidden;
+    overflow: hidden;
     order: 2;
   }
 
