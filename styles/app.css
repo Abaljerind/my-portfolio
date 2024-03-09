@@ -1188,4 +1188,48 @@ footer .footer-container .footer-lower p a {
   }
 
   /* footer */
+  footer .footer-container {
+    width: 100%;
+  }
+
+  /* footer-upper */
+  footer .footer-container .footer-upper {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+  footer .footer-container .footer-upper .profile {
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+
+  footer .footer-container .footer-upper .profile h3 {
+    text-align: start;
+    font-size: 1.45em;
+  }
+
+  footer .footer-container .footer-upper .social-media h3 {
+    text-align: center;
+    font-size: 1.45em;
+  }
+
+  footer .footer-container .footer-upper .profile p {
+    text-align: start;
+    font-size: 0.9em;
+    padding-right: 0rem;
+  }
+
+  footer .footer-container .footer-upper .social-media {
+    width: 40%;
+    padding-right: 0rem;
+  }
+
+  footer .footer-container .footer-upper .social-media ul {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }
