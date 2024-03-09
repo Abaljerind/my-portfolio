@@ -649,6 +649,7 @@ footer .footer-container .footer-lower p a {
 
   /* .aside */
   main .main-container aside {
+    overflow-x: hidden;
     order: 1;
   }
 
@@ -659,8 +660,8 @@ footer .footer-container .footer-lower p a {
   }
 
   main .main-container aside svg.my-background {
-    top: 3.3rem;
-    right: 6rem;
+    top: 4.5rem;
+    right: 1.5rem;
   }
 
   /* about */
