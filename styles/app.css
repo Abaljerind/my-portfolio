@@ -883,7 +883,7 @@ footer .footer-container .footer-lower p a {
   }
 }
 /* Medium devices (tablets, 810px and up) */
-@media screen and (max-width: 811px) {
+@media screen and (min-width: 810px) {
   /* header */
   header {
     column-gap: 40rem;
@@ -934,5 +934,58 @@ footer .footer-container .footer-lower p a {
   header nav.nav-list ul li:last-child {
     display: flex;
     transform: scale(1.5);
+  }
+
+  /* main */
+  main {
+    justify-content: center;
+  }
+
+  main .main-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    /* gap perlu diatur lagi */
+    padding: 1rem 1rem 6rem 1rem;
+  }
+
+  main .main-container .content {
+    width: 65%;
+    justify-content: flex-start;
+    align-items: center;
+    order: 1;
+  }
+
+  main .main-container .content h1 {
+    font-size: 2.25em;
+  }
+
+  main .main-container .content p {
+    font-size: 0.9em;
+    padding: 0;
+  }
+
+  /* .btn-group */
+  main .main-container .content .btn-group a {
+    padding: 0.5rem 0.85rem;
+  }
+
+  /* .aside */
+  main .main-container aside {
+    overflow-x: hidden;
+    order: 2;
+  }
+
+  main .main-container aside img {
+    top: 0rem;
+    right: 2.7rem;
+    transform: scale(0.825);
+  }
+
+  main .main-container aside svg.my-background {
+    top: 4.5rem;
+    right: 1.5rem;
   }
 }
