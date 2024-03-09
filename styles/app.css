@@ -881,7 +881,7 @@ footer .footer-container .footer-lower p a {
   }
 }
 /* Medium devices (tablets, 810px and up) */
-@media screen and (min-width: 810px) {
+@media only screen and (min-width: 377px) and (max-width: 811px) {
   /* header */
   header {
     column-gap: 40rem;
@@ -1073,5 +1073,54 @@ footer .footer-container .footer-lower p a {
 
   main section.about .content-about aside.skills-set .skills p.skill {
     padding: 0.6rem 1.2rem;
+  }
+
+  /* project */
+  /* project content */
+  main section.project .project-content {
+    gap: 4rem;
+  }
+
+  /* project row */
+  main section.project .project-content .project-row {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main section.project .project-content .project-row .project-img {
+    width: 50%;
+  }
+
+  /* project description */
+  main section.project .project-content .project-row .project-description {
+    width: 45%;
+    flex-direction: column;
+  }
+
+  main section.project .project-content .project-row .project-description h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 0.65rem;
+  }
+
+  main section.project .project-content .project-row .project-description p {
+    font-size: 0.9em;
+    line-height: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  main
+    section.project
+    .project-content
+    .project-row
+    .project-description
+    button {
+    width: 45%;
+    padding: 1rem 0.75rem;
+    transform: scale(0.85);
+    margin-top: -1rem;
+    margin-left: -0.8rem;
   }
 }
