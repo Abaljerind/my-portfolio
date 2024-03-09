@@ -795,6 +795,9 @@ footer .footer-container .footer-lower p a {
     button {
     width: 40%;
     padding: 0.7rem 0.5rem;
+    transform: scale(0.85);
+    margin-top: -1rem;
+    margin-left: -0.8rem;
   }
 
   /* contact */
