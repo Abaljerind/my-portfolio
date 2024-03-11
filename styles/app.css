@@ -673,6 +673,10 @@ footer .footer-container .footer-lower p a {
     font-size: 2em;
   }
 
+  main .main-container .content h1 pre span::before {
+    height: 28px;
+  }
+
   main .main-container .content p {
     font-size: 0.9em;
     padding: 0 0rem 0 0;
@@ -1003,6 +1007,10 @@ footer .footer-container .footer-lower p a {
 
   main .main-container .content h1 {
     font-size: 2.25em;
+  }
+
+  main .main-container .content h1 pre span::before {
+    height: 30px;
   }
 
   main .main-container .content p {
