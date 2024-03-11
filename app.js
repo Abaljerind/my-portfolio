@@ -9,7 +9,7 @@ function dropdown() {
 
 // function untuk efek mengetik
 const dynamicText = document.querySelector("h1.greeting span");
-const words = ["AbalJerind", "a Front-end Developer"];
+const words = ["AbalJerind", "a Front-end Dev."];
 
 let wordIndex = 0;
 let charIndex = 0;
