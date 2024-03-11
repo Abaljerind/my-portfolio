@@ -121,6 +121,7 @@ main .main-container .content h1 pre span::before {
   top: 50%;
   height: 50px;
   width: 3px;
+  transform: translateY(-50%);
   background-color: #7752fe;
   animation: blink 0.7s infinite;
 }
