@@ -100,9 +100,39 @@ main .main-container .content {
 
 main .main-container .content h1 {
   font-size: 3.5em;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
   letter-spacing: 1px;
+}
+
+main .main-container .content h1 pre {
+  position: relative;
+}
+
+main .main-container .content h1 pre span {
+  display: inline-block;
+  color: #7752fe;
+}
+
+main .main-container .content h1 pre span::before {
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  height: 50px;
+  width: 3px;
+  background-color: #7752fe;
+  animation: blink 0.7s infinite;
+}
+
+main .main-container .content h1 pre span.stop-blinking::before {
+  animation: none;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 main .main-container .content p {
